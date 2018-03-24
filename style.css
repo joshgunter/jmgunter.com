@@ -2,3 +2,28 @@
 body {
   background-color: #FFF;
 }
+
+
+.container {
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar {
+  float: right;
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.about {
+  display: block;
+}

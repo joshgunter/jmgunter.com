@@ -1,8 +1,11 @@
 
 body {
   background-color: #FFF;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-
 
 .container {
     padding: 1.5em;
@@ -11,8 +14,8 @@ body {
     max-width: 800px;
 }
 
-.logo {
-  float: left;
+.site-header {
+  border-top: 5px solid #bfdeff;
 }
 
 .navbar {
@@ -22,8 +25,30 @@ body {
 
 .navbar li {
   display: inline-block;
+  padding: 0.5em;
+}
+
+.navbar a {
+  display: inline-block;
+  padding-bottom: 0.06em;
+  text-decoration: none;
+  border-bottom: 2px solid #bfdeff;
+}
+
+.logo {
+  float: left;
+  letter-spacing: 1px;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .about {
+  display: block;
+}
+
+.notes {
+  background-color: #bfdeff;
   display: block;
 }

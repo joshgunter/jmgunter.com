@@ -1,68 +1,6 @@
-
 body {
   background-color: #FFF;
   font-family: 'Karla', sans-serif;
   margin: 0 auto;
-  padding: 0 0px 20px 0px;
   border: 0;
-}
-
-.container {
-    padding: 1.5em;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-}
-
-.nav {
-  border-top: 5px solid #bfdeff;
-  margin-bottom: 1em;
-}
-
-.navbar {
-  float: right;
-  list-style-type: none;
-  padding-bottom: 1em;
-}
-
-.navbar li {
-  display: inline-block;
-  padding: 0.5em;
-  
-}
-
-.navbar a {
-  display: inline-block;
-  padding-bottom: 0.06em;
-  text-decoration: none;
-  border-bottom: 2px solid #bfdeff;
-}
-
-.logo {
-  float: left;
-  letter-spacing: 1px;
-}
-
-.logo a {
-  text-decoration: none;
-}
-
-.about {
-  display: block;
-  background-color: #bfdeff;
-  margin: 2em auto;
-  padding: 1.53m 0;
-}
-
-.contact-info {
-  display: inline;
-}
-
-.proile-photo {
-  display: inline;
-}
-
-.notes {
-  background-color: #bfdeff;
-  display: block;
 }
